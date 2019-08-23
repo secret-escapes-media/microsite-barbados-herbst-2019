@@ -1,9 +1,9 @@
 // styles for the microsite nav
 
-$site-nav-height:    56px;
-$site-nav-height-sm: 44px;
-$nav-width-bp:       640px;
-$nav-color:          $orange-dark;
+$site-nav-height:    60px;
+$site-nav-height-sm: 60px;
+$nav-width-bp:       860px;
+$nav-color:          $f-blue;
 
 
 // global site nav height
@@ -18,7 +18,8 @@ $nav-color:          $orange-dark;
 
 .site-nav {
   position: relative;
-  background-color: rgba($nav-color,.8);
+  background-color: rgba($nav-color,.5);
+  //border: 1px solid rgba($black,.05);
   text-align: center;
 
   // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
@@ -86,16 +87,17 @@ $nav-color:          $orange-dark;
     justify-content: center;
     padding-left: $s4;
     padding-right: $s4;
-    font-family: $font-core;
+    padding-top: 4px;
+    font-family: $font-title-01;
     font-weight: 700;
-    font-size: 11px;
-    letter-spacing: .2em;
+    font-size: 13px;
+    letter-spacing: .1em;
     text-transform: uppercase;
-    color: $white;
+    color: rgba($white,1);
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($nav-color,1); }
+    &.is-current      { color: rgba($f-blue,1);  background-color: rgba($f-yellow,1);  }//border-bottom: 2px solid $f-blue; padding-top:2px; color: rgba($f-blue,1);
+    .no-touch &:hover {  color: rgba($f-blue,1);  background-color: rgba($f-yellow,1);}
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;

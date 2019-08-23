@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+
+<div class=" vpad--xxl bg--f-blue " id="top" >
+  <div class="container">
+    <div class="width width--xl  text--left text text--white " >
+       <div class="text--xl">{{page.intro}}</div>
+       <div class="space--md"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% for section in site.data[page.id] %}
+
+    <div id="{{section.id}}" class="harvey{% cycle '', ' harvey--swap' %}  {% cycle 'bg--f-sand', 'bg--white' %}">
+      <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.img}}.jpg');"> </div>
+      <div class="harvey__text boxpad--xl text text--lg text--black ">
+        <div class="space--lg"></div>
+        <h2 class="title serif-title bv-headline-divider text--blue  ">{{section.title}}</h2>
+        <p>{{section.description}}</p>
+        <div class="space--lg"></div>
+      </div>
+    </div>
+ {% endfor %}

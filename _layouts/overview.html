@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+
+<div class=" vpad--xl {{page.colour}} " id="top" >
+  <div class="container">
+    <div class="width width--xl  text--left text text--white " >
+       <div class="text--lg">{{page.intro}}</div>
+       <div class="space--md"></div>
+    </div>
+  </div>
+</div>
+
+
+
+{% assign destinations = site.html_pages | where: 'content-pages', 'true'  | sort:'nav-order' %}
+
+<div class="space--lg"></div>
+  {% for destination in destinations %}
+<div class=" vpad--lg  bg--white">
+  <div class="container">
+  <div class="bob {% cycle 'bob--swap', '' %} ">
+    <div class="bob__img">
+      <a href="{{site.baseurl}}{{destination.url}}"  class="bg-img bg-img--4-3 " style="background-image: url('{{site.img}}/content/{{destination.id}}.jpg');" ></a>
+    </div>
+    <div class="bob__text">
+      <div class="space--xs"></div>
+      <h3 class="title title--lg text--blue text--bold  ">{{destination.title}}</h3>
+      <div class="space--xs"></div>
+      <p class="text  text--lg">{{destination.summary}}</p>
+      <div class="space--lg"></div>
+      <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--f-yellow" >Jetzt entdecken</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+{% endfor %}

@@ -4,6 +4,7 @@
 
   // custom content headline
   font-family: $font-title-01;
+  line-height: 1.1em;
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
   &--xl     { font-size: $s6; }
@@ -31,13 +32,24 @@
 
   // custom content headline
   font-family: $font-title-01;
-  font-size: $s2; // default size
-  &--lg     { font-size: $s4; }
-  &--sm     { font-size: $s0; }
-  @include bp($lg){
-    font-size: $s3; // default size
-    &--lg     { font-size: $s5; }
-    &--sm     { font-size: $s1; }
+  font-size: $s4; // default size
+  font-weight: 300;
+  line-height: 1.2em;
+
+  &--lg     {
+    font-size: $s3;
+    line-height: 1.4em;
+    font-weight: 300; }
+
+  &--sm     { font-size: $s2; }
+
+  @include bp($md){
+
+    font-size: $s6; // default size
+    &--lg     {  font-size: $s6; line-height: 1.2em; letter-spacing: .04em;
+    //text-transform: uppercase;
+ }
+    &--sm     {  font-size: $s1; }
   }
 
 }
@@ -77,10 +89,44 @@
 .banner-title {
 
   // custom banner headline
-  font-family: $font-title-01;
-  text-transform: uppercase;
+  font-family: $font-title-sc;
+  font-weight: 500;
+  //text-transform: uppercase;
+  //letter-spacing: 1em;
+  font-size: $s8;
+  line-height: 1em;
+
+  @include bp($sm){ font-size: $s9;  line-height: 1em; }
+  @include bp($md){ font-size: $s10;  line-height: 1em; }
+  @include bp($lg){ font-size: $s11;  line-height: 1em; }
+  @include bp($xl){ font-size: $s12;  line-height: 1em;
+
+
+  }
+
+}
+
+.serif-title {
+
+  // custom intro headline
+  font-family: $font-title-sc;
+  font-weight: 300;
+  letter-spacing: -.02em;
+  //color: $f-blue;
   font-size: $s5;
-  @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s10; }
+
+  &--xl   { font-size: $s7; line-height: 1.1; }
+  &--xxl   { font-size: $s7; line-height: 1.1; }
+
+  @include bp($md){ font-size: $s6;
+
+  &--xxl   { font-size: $s8; line-height: 1.1; }
+}
+  @include bp($xl){ font-size: $s6; letter-spacing: 1px; line-height: 1em;
+  &--lg   { font-size: $s7; line-height: 1.2; }
+  &--xl   { font-size: $s8; line-height: 1.2; }
+  &--xxl   { font-size: $s9; line-height: 1.1; }
+
+  }
 
 }

@@ -4,6 +4,10 @@
   &--white { background-color: $white; }
   &--light { background-color: $grey-lightest; }
   &--dark  { background-color: $grey-dark; }
+  &--f-blue { background-color: $f-blue; }
+  &--f-sand { background-color: $f-sand; }
+  &--f-red { background-color: $f-red; }
+  &--f-lightblue { background-color: $f-lightblue; }
   &--img   { @include background-attributes; }
   &__fixed {
     position: fixed;

@@ -1,1 +1,102 @@
 // general styles for the project that wouldn't be a reuseable component
+
+
+/* ==========================================================================
+   Dividers & Alignment
+   ========================================================================== */
+
+   .bv-title-divider::after{
+       content: ('~');
+       display: block;
+       font-size: $s9;
+       margin: -5px 0 -10px 1px;
+
+
+
+     @include bp($md) {
+         content: ('~');
+         display: block;
+         font-size: $s12;
+         margin: -12px 0 -20px 1px;
+
+     }
+
+     @include bp($xl) {
+         content: ('~');
+         display: block;
+         font-size: $s14;
+         margin: -30px 0 -30px 1px;
+
+     }
+   }
+
+
+.bv-headline-divider::after {
+    content: ('~~~');
+    display: block;
+    font-size: $s5;
+    font-weight: bold;
+    letter-spacing: -.02px;
+    margin: 2px 0 -2px 1px;
+
+    @include bp($xl) {
+        content: ('~~~');
+        display: block;
+        font-size: $s5;
+        font-weight: bold;
+        letter-spacing: -.02px;
+        margin: 6px 0 -4px 1px;
+
+    }
+  }
+
+
+
+
+/* ==========================================================================
+   Parallax
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+  background-image: none!important;
+
+  &--blue{
+    background-image: none!important;
+    background-color: $f-blue;}
+}
+
+.bv-parallax{
+      background-attachment: scroll;
+      background-size: cover;
+  }
+}
+
+
+
+
+/* ==========================================================================
+Flight tag - Offers
+========================================================================== */
+
+.flight-tag {
+  position: absolute;
+  top: $s-2;
+  left: $s-2;
+  display: block;
+  width: 50%;
+  @include bp($sm){
+    top: $s0;
+    left: $s0;
+    width: 146px;
+  }
+}
