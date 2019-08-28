@@ -1,0 +1,40 @@
+- id: one
+  title: "Ein Lächeln für jeden"
+  img: bg-img1
+  description: "Auf Barbados spielt sich das Leben draußen ab. Das typisch barbadische Lebensgefühl drückt sich neben der paradiesischen Natur in der Kultur des einheimischen Volkes der Bajan aus. Die Bajan sind sehr umgänglich und humorvoll und knüpfen liebend gerne Kontakte. Ein Gespräch bei Rum und Musik oder ein Volleyball-Match am Strand lässt Fremde dann eventuell sogar zu Freunden werden. So oft wie ihre Strände besuchen die Einheimischen auch die Kirchen – die Bewohner von Barbados sind spirituell sehr stark verwurzelt und praktizieren insgesamt über 100 Religionsrichtungen."
+
+
+################################################################################
+
+
+- id: two
+  title: "Melting Pot der Karibik"
+  img: bg-img2
+  description: "In der Kultur der Insel verbinden sich mehr als 300 Jahre britischer Kolonialherrschaft mit westafrikanischen Einflüssen. Architektonisch drückt sich diese reizvolle Mischung in georgianischen oder viktorianischen Gebäuden aus, die immer wieder Platz für traditionelle Chattel Houses der Bajan machen, charmante mobile Holzhäuser, oftmals bunt gestaltet. Auch musikalisch koexistieren westliche Einflüsse wie Jazz und Opera Seite an Seite mit karibischen Musikstilen wie Soca, Calypso, Spouge und Tuk. Diese lebhaften Rhythmen laden immer und überall zum Mittanzen ein und machen es fast unmöglich, still sitzen zu bleiben."
+
+
+################################################################################
+
+
+- id: three
+  title: "Barbados – die Heimat des&nbsp;Rums"
+  img: bg-img3
+  description: "Barbados ist der Geburtsort des ersten kommerziellen Rums der Welt, der im 17. Jahrhundert als Nebenprodukt der Zuckerherstellung entdeckt wurde und sich recht schnell zum besten Rum der Karibik entwickelte. Gehen Sie den Geheimnissen des Feuerwassers in den Destillerien nach und besuchen Sie die lokalen Rum-Bars, die praktisch an jeder Hausecke zu finden sind. Die kleinen charmanten Schankstuben sind sehr beliebt und ein wesentlicher Bestandteil der bajanischen Kultur. Probieren Sie bei einer Verkostung die besten Tropfen und bringen Ihren Liebsten die ein oder andere Flasche qualitativen Rum als Souvenir mit."
+
+
+################################################################################
+
+
+- id: four
+  title: "Fisch und Brot"
+  img: bg-img4
+  description: "Man nehme ein Pfund afrikanischer Aromen, eine Handvoll indischer Würze und eine Prise britischer Klassiker: Voilà, die barbadische Küche. Neben dem Nationalgericht CouCou und fliegender Fisch sind Fishcakes und Saltbread beliebt, liebevoll ‘a bread and two’ genannt. Appetit geweckt? Dann nichts wie ran an Klassiker wie Makkaroni-Auflauf und cole slaw und exotische Spezialitäten wie Yams, Brotfrucht oder Seeigel. Zum Dessert gibt es eingelegte Guave – guava cheese – oder Kuchen. Street Food is auch sehr populär – zum Treffpunkt der Insel wird jeden Freitag der Oistin’s Fish Market."
+
+
+################################################################################
+
+
+- id: five
+  title: "Das Leben ist ein Festival"
+  img: bg-img5
+  description: "An den vielen Festivals auf Barbados kommen Sie nicht vorbei. Der April steht im Zeichen des Barbados Reggae Festivals, im historischen Farley Hill National Park, einen Monat später heißt es: Gospelfest. Auch die visuellen Künste werden mehrfach im Jahr zelebriert. Das Hauptevent von Barbados ist jedoch das Crop Over Festival zu Ehren der Zuckerrohr-Ernte. Mehrere Wochen lang feiern die Einwohner bei Wettbewerben und Straßenparaden, bis sich die ganze Festivität am ersten Augustmontag bei Kadooment Day in farbenfrohen Wellen entlädt. Dieser Tag ist Barbados' Karneval, der an seinen großen Bruder in Rio erinnert: über 15.000 Menschen ziehen in Maskerade durch die Straßen und locken Besucher von überallher an."

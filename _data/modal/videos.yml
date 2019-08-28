@@ -1,0 +1,23 @@
+
+- id: condor-one-video
+  youtube-id: condor-economy_kompr.mp4
+  page: journey
+  pages:
+    - id: overview
+    - id: condor
+
+- id: condor-two-video
+  youtube-id: condor-premium_kompr.mp4
+  page: journey
+  pages:
+    - id: overview
+    - id: condor
+
+- id: condor-three-video
+  youtube-id: condor-business_kompr.mp4
+  page: journey
+  pages:
+    - id: overview
+    - id: condor
+
+-

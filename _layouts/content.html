@@ -9,6 +9,9 @@ layout: default
     <div class="width width--xl  text--left text text--white " >
        <div class="text--xl">{{page.intro}}</div>
        <div class="space--md"></div>
+       {% if page.cta  %}
+        <a href="{{page.cta}}" class="btn btn--f-yellow" >Flüge nach Barbados</a>
+            {% endif %}
     </div>
   </div>
 </div>
