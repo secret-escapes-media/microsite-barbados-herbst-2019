@@ -1,8 +1,8 @@
 - id: one
-  title: Economy
+  title: Economy Class
   img: bg-img1
   video: economy
-  description: "Beginnen Sie Ihren Urlaub bereits an Bord. In der Economy-Class ruhen Sie in ergonomisch geformten Ledersitzen, die auf Wunsch zu XL-Sitzen mit einem Extra an Beinfreiheit aufgewertet werden können. In allen Klassen steht Ihnen ein persönlicher 9-Zoll-Monitor mit Unterhaltungsprogramm zur Verfügung – Premium-Entertainment und -Menüs sind gegen Aufpreis zubuchbar. "
+  description: "Beginnen Sie Ihren Urlaub bereits an Bord. In der Economy-Class ruhen Sie in ergonomisch geformten Sitzen, die auf Wunsch zu XL-Sitzen mit einem Extra an Beinfreiheit aufgewertet werden können. Zur Unterhaltung steht Ihnen ein persönlicher 9-Zoll-Monitor mit Programm zur Verfügung, für Ihr leibliches Wohl ist ebenfalls bestens gesorgt. Premium-Entertainment und -Menüs sind gegen Aufpreis&nbsp;zubuchbar."
 
 
 
@@ -10,10 +10,10 @@
 
 
 - id: two
-  title: Premium
+  title: Premium Class
   img: bg-img2
   video: premium
-  description: "Mehr Luxus wird in der Premium Class in bequemeren Sitzen, mit Decken und extrabreiten Kissen bemessen. Checken Sie separat ein mit bis zu 25 kg Gepäck. An Bord erwartet Sie unter anderem ein Wohlfühlset, kostenfreie Kopfhörer und ein breit gefächertes Zeitschriftensortiment. Reservieren Sie Ihren Wunschsitz ohne Aufpreis und genießen Sie zwei Premium Menüs, Snacks und Getränke, während Ihre Boeing die Karibik ansteuert."
+  description: "Ein Extra an Service und Komfort: in der Premium Class checken Sie mit bis zu 25 kg Gepäck separat ein und sitzen mit an Bord 15 cm mehr Beinfreiheit noch bequemer – auf Wunsch gibt es Decken und extrabreite Kissen. Dazu erwartet Sie unter anderem ein Wohlfühlset, kostenfreie Kopfhörer und ein breit gefächertes Zeitschriftensortiment. Reservieren Sie Ihren Wunschsitz ohne Aufpreis und genießen Sie zwei Premium Menüs, Snacks und Getränke, während Ihre Boeing die Karibik&nbsp;ansteuert."
 
 
 
@@ -25,4 +25,4 @@
   title: Business Class
   img: bg-img3
   video: business
-  description: "Komfort geht über alles – das Motto der Business Class. Bereits vor dem Abflug verbringen Sie angenehme Momente in der Business Lounge. Über die Priority Lane geht es dann in Ihr fliegendes 5-Sterne-Hotel. Liegesitze, die sich fast in Betten verwandeln, garantieren geruhsamen Schlaf über den Wolken. Kaum erwacht, sorgen 15-Zoll-Monitore für lückenloses Entertainment, Gourmet-Menüs für erlesenen Genuss und Top-Service versüßt die Restflugzeit."
+  description: "Komfort geht über alles – das Motto der Business Class. Bereits vor dem Abflug verbringen Sie angenehme Momente in der Business Lounge. Über die Priority Lane geht es dann in Ihr fliegendes 5-Sterne-Hotel. Liegesitze, die sich fast in Betten verwandeln, garantieren geruhsamen Schlaf über den Wolken. Kaum erwacht, sorgen 15-Zoll-Monitore für lückenloses Entertainment, Gourmet-Menüs für erlesenen Genuss und Top-Service versüßt die&nbsp;Restflugzeit."

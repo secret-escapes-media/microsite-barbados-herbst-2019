@@ -21,9 +21,7 @@
               {% if item.page %}data-group-page="{{item.page}}"{% endif %}
               {% if item.section %}data-group-section="{{item.section}}"{% endif %}>
               <div class="modal__content">
-                {% if item.section %}
-                  {% include modal/content/photo.html %}
-                {% elsif item.youtube-id %}
+                {% if item.youtube-id %}
                   {% include modal/content/video.html %}
 
                 {% endif %}

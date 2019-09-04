@@ -3,11 +3,10 @@ layout: default
 ---
 
 
-
 <div class=" vpad--xxl bg--f-blue " id="top" >
   <div class="container">
-    <div class="width width--xl  text--left text text--white " >
-       <div class="text--xl">{{page.intro}}</div>
+    <div class="width width--md text--justify text text--white " >
+       <div class="text--lg">{{page.intro}}</div>
        <div class="space--md"></div>
        {% if page.cta  %}
         <a href="{{page.cta}}" class="btn btn--f-yellow" >Flüge nach Barbados</a>
@@ -15,8 +14,6 @@ layout: default
     </div>
   </div>
 </div>
-
-
 
 
 {% for section in site.data[page.id] %}

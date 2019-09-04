@@ -8,7 +8,7 @@
       <div class="container container--no-padding text--center">
         {% if page.banner.title-sup %}<h2 class="sub-title  ">{{page.banner.title-sup}}</h2>{% endif %}
         <div class="space--xs"></div>
-        <h1 class="banner-title bv-title-divider ">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+        <h1 class="banner-title bv-title-divider {{page.banner.title-size}}">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
         <div class="space--sm"></div>
         {% if page.banner.title-sub %}<h2 class="sub-title ">{{page.banner.title-sub}}</h2>{% endif %}
       </div>

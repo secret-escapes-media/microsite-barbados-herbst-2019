@@ -19,5 +19,18 @@ $f-lightblue: #a3cdd4;
 $f-blue: #012E5C;
 $f-yellow: #FAC601;
 $f-sand: #efeee2;
+$g-purple: #B40937;
+$g-blue: #00aec5;
+$g-yellow: #f0d313;
+$g-sand: #f1eee5;
 $bv-red: #da202c;
-$af-blue: #051039;
+//$af-blue: #051039;
+$c-grey: #4f4c49;
+$c-orange: #f8ac00;
+$c-lightorange: #f3c249;
+$c-darkorange: #e79339;
+
+.bv-brand-gradient {
+  background-color: $g-blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(-45deg, $g-blue, $g-purple); /* Standard syntax (must be last) */
+}

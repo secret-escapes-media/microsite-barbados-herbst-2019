@@ -45,13 +45,21 @@
 
   @include bp($md){
 
-    font-size: $s6; // default size
+    font-size: $s5; // default size
     &--lg     {  font-size: $s6; line-height: 1.2em; letter-spacing: .04em;
     //text-transform: uppercase;
  }
     &--sm     {  font-size: $s1; }
   }
 
+    @include bp($lg){
+
+      font-size: $s6; // default size
+      &--lg     {  font-size: $s6; line-height: 1.2em; letter-spacing: .04em;
+      //text-transform: uppercase;
+   }
+      &--sm     {  font-size: $s1; }
+    }
 }
 
 
@@ -93,15 +101,31 @@
   font-weight: 500;
   //text-transform: uppercase;
   //letter-spacing: 1em;
-  font-size: $s8;
-  line-height: 1em;
+  font-size: $s7;
+   line-height: .9;
 
-  @include bp($sm){ font-size: $s9;  line-height: 1em; }
-  @include bp($md){ font-size: $s10;  line-height: 1em; }
-  @include bp($lg){ font-size: $s11;  line-height: 1em; }
-  @include bp($xl){ font-size: $s12;  line-height: 1em;
+  &--lg   { font-size: $s8; line-height: 1.2; }
+  &--xl   { font-size: $s9; line-height: 1.1; }
+  &--xxl   { font-size: $s10; line-height: 1.1; }
 
+  @include bp($md){ font-size: $s8; line-height: 1;
 
+  &--lg   { font-size: $s9; line-height: 1.2; }
+  &--xl   { font-size: $s10; line-height: 1.2; }
+  &--xxl   { font-size: $s11; line-height: 1.1; }
+}
+
+@include bp($lg){ font-size: $s9; line-height: 1;
+
+&--lg   { font-size: $s10; line-height: 1.2; }
+&--xl   { font-size: $s11; line-height: 1.2; }
+&--xxl   { font-size: $s12; line-height: 1.1; }
+}
+  @include bp($xl){ font-size: $s10; letter-spacing: 1px; line-height: .9;
+
+  &--lg   { font-size: $s11; line-height: .9; }
+  &--xl   { font-size: $s12; line-height: .9; }
+  &--xxl   { font-size: $s13; line-height: .9; }
   }
 
 }
@@ -115,17 +139,20 @@
   //color: $f-blue;
   font-size: $s5;
 
-  &--xl   { font-size: $s7; line-height: 1.1; }
-  &--xxl   { font-size: $s7; line-height: 1.1; }
+  &--lg   { font-size: $s6; line-height: 1.2; }
+  &--xl   { font-size: $s7; line-height: 1.2; }
+  &--xxl   { font-size: $s8; line-height: 1.2; }
 
   @include bp($md){ font-size: $s6;
 
-  &--xxl   { font-size: $s8; line-height: 1.1; }
-}
-  @include bp($xl){ font-size: $s6; letter-spacing: 1px; line-height: 1em;
   &--lg   { font-size: $s7; line-height: 1.2; }
   &--xl   { font-size: $s8; line-height: 1.2; }
-  &--xxl   { font-size: $s9; line-height: 1.1; }
+  &--xxl   { font-size: $s9; line-height: 1.2; }
+}
+  @include bp($xl){ font-size: $s7; letter-spacing: 1px; line-height: 1.2;
+  &--lg   { font-size: $s8; line-height: 1.2; }
+  &--xl   { font-size: $s9; line-height: 1.2; }
+  &--xxl   { font-size: $s10; line-height: 1.2; }
 
   }
 

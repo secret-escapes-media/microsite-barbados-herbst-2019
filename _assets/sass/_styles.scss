@@ -143,6 +143,141 @@
 
 
 
+  /* ==========================================================================
+     Condor banner
+     ========================================================================== */
+
+  .bv-orange-condor{
+
+  background-color: $c-orange;
+  background-image: linear-gradient(90deg, $c-darkorange, $c-lightorange);
+  height: 10px;
+  overflow: visible;
+  text-align: center;
+
+  @include bp($xxl){
+
+      text-align: left; }
+  }
+
+
+  .bv-section-condor{
+    color:$white;
+    background-color: #333;
+
+
+  }
+
+  .bv-logo-condor{
+    text-align: center!important;
+    width: 180px;
+    margin-top: -1px;
+
+    }
+
+  .bv-img-condor{
+
+      outline-offset: -3px;
+      outline: 6px solid #fff;
+      box-shadow: 0px 0px 25px 15px rgba($black, .2);
+      transform: rotate(0deg);
+      margin-top: 15px;
+      @include bp($xxl){
+
+        transform: rotate(3.5deg); }
+    }
+
+  .bv-badge-condor{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: $s1 ;
+    right: $s1;
+    //border: 4px solid $c-orange;
+    text-align: center;
+    border-radius: 100px;
+    background-color: $c-orange;
+    background-image: linear-gradient(45deg, $c-darkorange, $c-lightorange);
+    color: $white;
+    transform: rotate(0deg);
+    z-index: 10;
+
+    @include bp($lg){
+
+      width: 110px;
+      height: 110px;}
+
+    }
+
+
+
+
+    .condor-text {
+
+      font-family: $font-condor;
+      // sizes
+      &--xxxl { font-size: 1.7rem; line-height: 1.3; letter-spacing: 0.5px; }
+      &--xxl { font-size: 1.4rem; line-height: 1.6; letter-spacing: 0; }
+      &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
+      &--lg  { font-size: 1.05rem; letter-spacing: 0; line-height: 1.6;}
+      &--md  { font-size: .95rem; letter-spacing: 0; line-height: 1.6; }
+      &--sm  { font-size: .8rem; line-height: 1.6;}
+      &--xs  { font-size: .7rem; }
+
+      // styles
+      &--italic       { font-style: italic; }
+      &--light        { font-weight: 300; }
+      &--normal       { font-weight: 400; }
+      &--semi         { font-weight: 500; }
+      &--bold         { font-weight: 600; }
+      &--bolder       { font-weight: 700; }
+      &--wide-kern    { letter-spacing: .25em; }
+      &--wide-kern-lg { letter-spacing: .5em; }
+      &--upper        { text-transform: uppercase; }
+
+      // colours
+      &--white { color: $grey-lightest; }
+      &--black { color: $grey-dark; }
+
+      // alignment
+      &--left   { text-align: left; }
+      &--right  { text-align: right; }
+      &--center { text-align: center; }
+      @include bp($lg) {
+        &--bp-left   { text-align: left; }
+        &--bp-right  { text-align: right; }
+        &--bp-center { text-align: center; }
+      }
+    }
+
+    .condor-title {
+
+      // custom content headline
+      font-family: $font-condor;
+      letter-spacing: -0.5px;
+      line-height: 1.3;
+      &--xxxl   { font-size: $s8; }
+      &--xxl    { font-size: $s7; }
+      &--xl     { font-size: $s6; }
+      &--lg     { font-size: $s5; }
+      &--md     { font-size: $s4; }
+      &--sm     { font-size: $s3; }
+      &--xs     { font-size: $s2; }
+      &--xxs    { font-size: $s1; }
+      &--xxxs   { font-size: $s0; }
+      @include bp($md){
+        &--xxxl   { font-size: $s9; }
+        &--xxl    { font-size: $s8; }
+        &--xl     { font-size: $s7; }
+        &--lg     { font-size: $s6; }
+        &--md     { font-size: $s5; }
+        &--sm     { font-size: $s4; }
+        &--xs     { font-size: $s3; }
+        &--xxs    { font-size: $s2; }
+        &--xxxs   { font-size: $s1; }
+      }
+
+    }
 
 /* ==========================================================================
 Flight tag - Offers

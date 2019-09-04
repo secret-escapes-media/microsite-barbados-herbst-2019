@@ -1,8 +1,7 @@
 - id: one
   title: Der wilde Atlantik
   img: bg-img1
-  description: "Die Ostküste von Barbados ist umgeben vom stürmischen Atlantik und bekannt für ihre raue Schönheit. Flankiert von großen Felsen brechen sich riesige Wellen an steilen Klippen. Beliebte Surfspots, wie die Soup Bowl und der Bathsheba Beach werden jährlich zum Schauplatz für Wellenreiter. Einer der sichersten Strände ist Bath Beach, wo eine Süßwaserquelle sich mit dem Ozean verbindet. In der Abgeschiedenheit versteckter Buchten beherbergt die Martins Bay kleine Fischerhütten. "
-
+  description: "Die Ostküste von Barbados ist umgeben vom stürmischen Atlantik und bekannt für ihre raue Schönheit. Flankiert von großen Felsen brechen sich riesige Wellen an steilen Klippen. Beliebte Surfspots, wie die Soup Bowl und der Bathsheba Beach werden jährlich zum Schauplatz für Wellenreiter. Einer der sichersten Strände ist Bath Beach, wo sich eine Süßwasserquelle mit dem Ozean verbindet. In der Abgeschiedenheit versteckter Buchten beherbergt die Martins Bay kleine&nbsp;Fischerhütten. "
 
 
 ################################################################################
@@ -11,19 +10,16 @@
 - id: two
   title: Die Platinküste
   img: bg-img2
-  description: "Klares, warmes Wasser, feinster Korallenstrand – die 'Platinküste' im Westen von Barbados erfüllt alle Ansprüche an die Karibik. Der bekannteste Strandclub – der Nikki Beach – liegt nordwestlich und lädt zu mondänen Auszeiten. Auch auf dem Sandy Lane Beach sind prominente Strandbesucher an der Tagesordnung. Etwas freier atmet es sich am Pebbles Beach südlich von Bridgetown. Weiter Richtung Süden wartet mit dem Miami Beach die Kulisse von Miami Vice und mehr Schwmimmvergnügen."
-
-
+  description: "Klares, warmes Wasser, feinster Korallenstrand – die 'Platinküste' im Westen von Barbados erfüllt alle Ansprüche an die Karibik. Der bekannteste Strandclub – der Nikki Beach – liegt nordwestlich und lädt zu mondänen Auszeiten ein. Auch auf dem Sandy Lane Beach sind prominente Strandbesucher an der Tagesordnung. Etwas freier atmet es sich am Pebbles Beach südlich von Bridgetown. Weiter Richtung Süden wartet mit dem Miami Beach die Kulisse von Miami Vice und mehr&nbsp;Schwmimmvergnügen."
 
 
 ################################################################################
 
 
 - id: three
-  title: Das Fenster zum&nbsp;Meer
+  title: Fenster zum&nbsp;Meer
   img: bg-img3
-  description: "Mit einem natürlichen Felspool zum Atlantik hin öffnet sich die einzige Meerhöhle der Insel an der Nordküste. Aufschäumend und imposant rauschen hier die kräftigen Wellen auf die zerklüfteten Felsformationen. Das beeindruckende Naturschauspiel an der Animal Flower Cave schafft einen Kontrast zu der Cocktail-Atmosphäre an der Westküste. Unvergessen bleiben Ihnen nach einem Besuch der stürmische Nordost-Passatwind und die raue Schönheit der Sandsteinfelsen. "
-
+  description: "Mit einem natürlichen Felspool zum Atlantik hin öffnet sich die einzige Meerhöhle der Insel an der Nordküste. Aufschäumend und imposant rauschen hier die kräftigen Wellen auf die zerklüfteten Felsformationen. Das beeindruckende Naturschauspiel an der Animal Flower Cave schafft einen Kontrast zu der Cocktail-Atmosphäre an der Westküste. Unvergessen bleiben Ihnen nach einem Besuch der stürmische Nordost-Passatwind und die raue Schönheit der&nbsp;Sandsteinfelsen. "
 
 
 ################################################################################
@@ -32,5 +28,5 @@
 - id: four
   title: Verträumte Südküste
   img: bg-img4
-  description: "Die Bottom Bay an der Südküste ist ein wahrer Klassiker: Menschenleerer feiner Sandstrand mit kräftigen Kokospalmen und einer leichten Brise. Hier steht Ihrem Karibik-Traum nichts im Wege. Angenehme Wassertemperaturen und paradiesisches Feeling erwarten Sie auch gleich nebenan – die Cave Bay erreichen Sie zu Fuß über ein kleines Plateau. Schnorcheln, schwimmen und surfen vollenden hier das traumhafte Beachlife.
-Packen Sie Ihren Picknick-Korb ein und relaxen in der entzückenden Lagune am Beach von Harrismith: Das&nbsp;ist&nbsp;'glamouröse&nbsp;Entschleunigung'. "
+  description: "Die Bottom Bay an der Südküste ist ein wahrer Klassiker: Menschenleerer feiner Sandstrand voller starker Palmen, umschlossen von Korallenriffen. Angenehme Wassertemperaturen und paradiesisches Feeling erwarten Sie auch gleich nebenan – die Cave Bay erreichen Sie zu Fuß über ein kleines Plateau.
+Schnorcheln über Riffe in flachem Wasser und Windsurfen für Anfänger sind weitere Vorzüge der Südküste. Silver Sands Beach schließlich bietet ideale Bedingungen zum&nbsp;Kite-Surfen."
