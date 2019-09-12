@@ -1,6 +1,6 @@
 <div class="offer shadow" id="hey">
 
-  <a class="offer__link" href="{{offer.link}}"><span class="btn btn--orange">Mehr erfahren</span></a>
+  <a class="offer__link" href="{{offer.link}}" target="_blank"><span class="btn btn--orange">Mehr erfahren</span></a>
     <div class="bg-img bg-img--3-2" style="background-image: url('{{offer.image}}')">
       {% if offer.flight-tag | where: 'flight-tag', 'true' %}
         <img class="flight-tag" src="{{site.img}}/icons/flights-incl.png" alt="FLÜGE INKLUSIVE">

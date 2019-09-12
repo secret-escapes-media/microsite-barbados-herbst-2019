@@ -12,7 +12,7 @@
   color: $white;
   background-color: $grey;
   @include bp($lg){
-    height: 90%;
+    height: 100%;
     min-height: 650px;
     max-height: none;
   }
