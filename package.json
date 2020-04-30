@@ -16,7 +16,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.1",
     "gulp-watch": "^5.0.1",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "jquery-countdown": "^2.2.0",
     "natives": "^1.1.6",
     "reset-css": "^4.0.1",
